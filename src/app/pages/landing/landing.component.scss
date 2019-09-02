@@ -1,0 +1,29 @@
+.info {
+	width: 100%;
+	background: #77030d;
+	color: #fff;
+}
+ul {
+	display: inline-block;
+	vertical-align: middle;
+}
+.list-group {
+
+	box-sizing: 0;
+}
+.list-group-item {
+	background-color: transparent;
+	border: 0px solid #ddd;
+	border-radius: 0;
+	color: #fff;
+}
+.circle {
+	border: solid 1.5px #fff;
+	border-radius: 100%;
+}
+
+@media (max-width: 600px) {
+  .info {
+    display: none;
+  }
+}
