@@ -2,6 +2,9 @@
   display: none;
   height: 60px;
 }
+.experience {
+  padding-top: 40px;
+}
 .info {
   width: 100%;
   background: #77030d;
@@ -30,6 +33,9 @@ ul {
   }
   #main {
     display: block;
+  }
+  .experience {
+    padding-top: 0;
   }
 }
 .sidebar {
